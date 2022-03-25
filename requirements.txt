@@ -1,0 +1,4 @@
+streamlit
+Pillow
+msrest
+azure-cognitiveservices-vision-face
