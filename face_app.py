@@ -104,7 +104,7 @@ if uploaded_file is not None:
         # elif selected_attributes == "smile":
         #     att = str(face.face_attributes.smile)
             
-        font = ImageFont.truetype("arial.ttf", size=20)
+        font = ImageFont.truetype(font='./Helvetica 400.ttf', size=20)
         text_w, text_h = drawing.textsize(att[selected_attributes], font=font)
         drawing.rectangle(getAttributesRectangle(face), fill='Blue')
         drawing.rectangle(getRectangle(face), outline='Blue', width = 3)
