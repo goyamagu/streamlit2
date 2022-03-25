@@ -4,14 +4,16 @@ from PIL import Image, ImageDraw, ImageFont
 from azure.cognitiveservices.vision.face import FaceClient
 from msrest.authentication import CognitiveServicesCredentials
 import streamlit as st
-import json
+
 # https://qiita.com/s-cat/items/a5b5d213120ef38cc027
 
 # TOML形式で行う
 # https://qiita.com/yuu999/items/e56fe82e61db0f74f9cb
 
-KEY = st.secrets.AzureApiKey.key
-ENDPOINT = st.secrets.AzureApiKey.endpoint
+# KEY = st.secrets.AzureApiKey.key
+# ENDPOINT = st.secrets.AzureApiKey.endpoint
+KEY = st.secrets["key"]
+ENDPOINT = st.secrets["endpoint"]
 
 # Create an authenticated FaceClient.
 face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(KEY))
