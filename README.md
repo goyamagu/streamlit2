@@ -1,5 +1,5 @@
 ## Summary
-### azure-cognitiveservices-vision-faceで顔属性を認識するWebApp実装。Streamlit Sharingで公開
+### azure-cognitiveservices-vision-faceで顔属性を認識するWebAppをStreamlitで実装。Streamlit Sharingで公開
 ## Reference
 - https://docs.microsoft.com/ja-jp/azure/cognitive-services/face/quickstarts/client-libraries?tabs=visual-studio&pivots=programming-language-python
 - https://qiita.com/s-cat/items/a5b5d213120ef38cc027
